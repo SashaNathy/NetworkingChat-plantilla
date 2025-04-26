@@ -1,84 +1,125 @@
 * {
     margin: 0;
+    box-sizing: border-box;
    
 }
 
-
-main {
+.container {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-        max-width: 250px;
-        width: 100%;
-            padding: 20px;
-        
-}
-
-
-
-img {
-    width: 70px;
-        height: auto;
-        border-radius: 100%;
-        padding-top: 10px;
-        margin-left: 10px;
-}
-
-.profile {
-    margin-right: 60px;
-}
-
-.icon_profile {
-    display: flex;
-    gap: 30px;
-    font-size: 30px;
-    color: rgb(59, 59, 59);
 }
 
 .sidebar {
+    height: 100vh;
+    width: 290px;
     display: flex;
-    justify-content: space-around;
-    width: 200px;
+    flex-direction: column;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: #333 1px solid;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     padding: 20px;
-    
 }
 
-.btn {
-    background-color: #b254dd;
-    color: white;
-    border: none;
-    padding: 20px 60px;
-    cursor: pointer;
-    margin-bottom: 60px;
-
-}
-
-.contacts {
-    display: flex;
-        align-items: center;
-        gap: 15px;
-        margin-bottom: 20px;
-       
-}
-
-.contacts img {
-    width: 60px;
-    height: 60px;
+.profile_photo img {
+    width: 40px;
     object-fit: cover;
     border-radius: 50%;
 }
 
+.profile {
+flex-grow: 1;
+}
+
+.icon_profile {
+    display: flex;
+        gap: 10px;
+        font-size: 14px;
+        color: #555;
+}
+
+.new_chat {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: #333 1px solid;
+}
+.btn {
+    width: 70%;
+    height: 40px;
+    color: white;
+    border: none;
+    padding: 15px;
+    margin: 20px 0;
+    cursor: pointer;
+    background-color: #b254dd;
+
+}
+
+.contac_list {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: #333 1px solid;
+}
+.contacts {
+    height: 67px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+        border-bottom: #3b3939b4 1px solid;
+}
+
+.contacts img {
+    width: 45px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+}
+
 .info h3 {
-    margin: 0;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .info p {
-    margin: 0;
-    color: rgb(70, 65, 65);
-    font-size: 12px;
+    font-size: 0.8rem;
+        color: #666;
+}
+.name {
+font-size: 1rem;
 }
 
-main_content {
+.main_content {
+    display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        align-items: center;
+        justify-content: center;
+        background-color: #e6dfdf;
+        text-align: center;
+        height: 100vh;
+}
 
+.main_content img {
+    width: 200px;
+        margin-bottom: 20px;
+}
+
+.main_content h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.main_content p {
+    font-size: 1rem;
+    color: #333;
 }
