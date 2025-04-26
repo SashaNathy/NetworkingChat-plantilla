@@ -3,13 +3,20 @@
    
 }
 
-header {
+
+main {
     display: flex;
-  align-items: center;
-    gap: 30px; 
+    justify-content: space-between;
+    flex-direction: column;
+        max-width: 250px;
+        width: 100%;
+            padding: 20px;
+        
 }
 
-.profile_photo img {
+
+
+img {
     width: 70px;
         height: auto;
         border-radius: 100%;
@@ -33,6 +40,7 @@ header {
     justify-content: space-around;
     width: 200px;
     padding: 20px;
+    
 }
 
 .btn {
@@ -41,5 +49,36 @@ header {
     border: none;
     padding: 20px 60px;
     cursor: pointer;
+    margin-bottom: 60px;
+
+}
+
+.contacts {
+    display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 20px;
+       
+}
+
+.contacts img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.info h3 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.info p {
+    margin: 0;
+    color: rgb(70, 65, 65);
+    font-size: 12px;
+}
+
+main_content {
 
 }
