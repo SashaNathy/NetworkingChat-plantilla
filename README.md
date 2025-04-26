@@ -25,3 +25,5 @@ Git y GitHub - Control de versiones y repositorio remoto.
 🖼️ Diseño tipo chat sidebar y área principal para conversación.
 
 🎯 Estilos modernos utilizando flexbox.
+
+[![Ver en GitHub](https://img.shields.io/badge/GitHub-Visitar%20Repo-black?logo=github)](https://github.com/SashaNathy/NetworkingChat-plantilla.git)
